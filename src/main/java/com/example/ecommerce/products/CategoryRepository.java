@@ -1,0 +1,6 @@
+package com.example.ecommerce.products;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface CategoryRepository extends CrudRepository<Category, Byte> {
+}
